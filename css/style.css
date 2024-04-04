@@ -12,6 +12,7 @@ header{
 
 ul{
     font-family: Arial, Helvetica, sans-serif;
+    list-style-type: disclosure-open;
 }
 
 h2{
@@ -66,10 +67,75 @@ h2{
     padding: .6rem 2.5rem;
 }
 
-.lista-padre{
+.li-padre{
+    margin-left: 3.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.li-figlio{
+    padding-top: .4rem;
+}
+
+.li-figlio-fatto{
+    list-style-type: none;
+}
+
+.li-figlio-non-fatto{
+list-style-type: none;
+}
+
+.span-inlineblock{
+    display: inline-block;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border-color: #bbe5dc;
+}
+
+.check-marker{
+    color: #60bea6;
+    font-weight: 400;
 
 }
 
-.lista-figlio{
-
+.cross-marker{
+color: red;
 }
+
+.tipo-legenda{
+    padding: .3rem .6rem;
+    color: white;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.blu{
+    background-color: #45abea;
+}
+
+.verde{
+    background-color: #63bfa8;
+}
+
+.viola{
+    background-color: #9c72e4;
+}
+
+.fucsia{
+    background-color: #d863a1;
+}
+
+.arancione{
+    background-color: #f29e33;
+}
+
+
+
