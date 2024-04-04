@@ -89,21 +89,23 @@ list-style-type: none;
     display: inline-block;
 }
 
-.circle{
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    border-color: #bbe5dc;
+.marker{
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    border-radius:50%;
 }
 
 .check-marker{
     color: #60bea6;
     font-weight: 400;
-
+    border: solid 1px #bbe5dc;
 }
 
 .cross-marker{
-color: red;
+    color: red;
+    border: 1.5px solid red;
+    border-color: #ed7c78;
 }
 
 .tipo-legenda{
